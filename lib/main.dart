@@ -20,9 +20,19 @@ class MiCardApp extends StatelessWidget {
               Text(
                 'Guilherme K Shida',
                 style: TextStyle(
-                  fontSize: 40.0,
+                  fontSize: 30.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
+                  fontFamily: 'Pacifico',
+                ),
+              ),
+              Text(
+                'DEVELOPER',
+                style: TextStyle(
+                  fontSize: 20.0,
+                  color: Colors.teal[100],
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Source Sans Pro',
                 ),
               )
             ],
