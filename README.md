@@ -18,7 +18,7 @@ Mi Card is a personal business card. Imagine every time you wanted to give someo
 - [x] How to use Columns and Rows to position your UI elements
 - [ ] How to add custom fonts
 - [ ] How to add Material icons
-- [ ] How to style Text widgets
+- [x] How to style Text widgets
 - [ ] How to read and use Flutter Documentation
 
 
