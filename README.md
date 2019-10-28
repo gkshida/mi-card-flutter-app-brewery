@@ -16,7 +16,7 @@ Mi Card is a personal business card. Imagine every time you wanted to give someo
 - [x] What is the difference between hot reload and hot refresh and running an app from cold
 - [x] How to use Containers to lay out your UI
 - [x] How to use Columns and Rows to position your UI elements
-- [ ] How to add custom fonts
+- [x] How to add custom fonts
 - [ ] How to add Material icons
 - [x] How to style Text widgets
 - [ ] How to read and use Flutter Documentation
