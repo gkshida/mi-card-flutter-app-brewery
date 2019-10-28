@@ -29,36 +29,37 @@ class MiCardApp extends StatelessWidget {
               Text(
                 'DEVELOPER',
                 style: TextStyle(
-                  fontSize: 20.0,
+                  fontSize: 16.0,
                   color: Colors.teal[100],
                   fontWeight: FontWeight.bold,
                   fontFamily: 'Source Sans Pro',
                 ),
               ),
+              SizedBox(
+                height: 20.0,
+                width: 150.0,
+                child: Divider(
+                  color: Colors.teal[100],
+                ),
+              ),
               Card(
-                color: Colors.white,
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
                   horizontal: 25.0,
                 ),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.phone,
-                      color: Colors.teal,
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    '+55 11 9999-9999',
+                    style: TextStyle(
+                      fontSize: 16.0,
+                      color: Colors.teal[900],
+                      fontFamily: 'Source Sans Pro',
                     ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      '+55 11 9999-9999',
-                      style: TextStyle(
-                        fontSize: 20.0,
-                        color: Colors.teal[900],
-                        fontFamily: 'Source Sans Pro',
-                      ),
-                    )
-                  ],
+                  ),
                 ),
               ),
               Card(
