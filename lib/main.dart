@@ -34,6 +34,33 @@ class MiCardApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   fontFamily: 'Source Sans Pro',
                 ),
+              ),
+              Container(
+                color: Colors.white,
+                padding: EdgeInsets.all(10.0),
+                margin: EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 25.0,
+                ),
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.phone,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      '+55 11 9999-9999',
+                      style: TextStyle(
+                        fontSize: 20.0,
+                        color: Colors.teal[900],
+                        fontFamily: 'Source Sans Pro',
+                      ),
+                    )
+                  ],
+                ),
               )
             ],
           ),
